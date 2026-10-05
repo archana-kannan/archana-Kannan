@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/archana-kannan">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=2EA6FF&center=true&vCenter=true&width=700&lines=13%2B+years+in+Software+Quality+Engineering;Playwright+%7C+WebdriverIO+%7C+Cypress+%7C+TypeScript;Building+AI+agents+that+generate+Playwright+tests;Developer-in-Test+%E2%80%94+I+fix+bugs%2C+not+just+find+them" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=2EA6FF&center=true&vCenter=true&width=700&lines=16%2B+years+in+Software+Quality+Engineering;Playwright+%7C+WebdriverIO+%7C+Cypress+%7C+TypeScript;Building+AI+agents+that+generate+Playwright+tests;Developer-in-Test+%E2%80%94+I+fix+bugs%2C+not+just+find+them" alt="Typing SVG" />
   </a>
 </p>
 
