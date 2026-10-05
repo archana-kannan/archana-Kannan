@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f2a"/>
+      <stop offset="0.5" stop-color="#14123d"/>
+      <stop offset="1" stop-color="#062a3a"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2EA6FF"/>
+      <stop offset="0.5" stop-color="#A66BFF"/>
+      <stop offset="1" stop-color="#2EE6C5"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2EE6C5" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#2EE6C5" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#2EE6C5" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#2EA6FF" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="card"><rect width="1000" height="280" rx="18"/></clipPath>
+  </defs>
+  <style>
+    .t{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
+    .m{font-family:'Fira Code',Consolas,Menlo,monospace}
+    .fade{opacity:0;animation:in 1s ease-out forwards}
+    .d1{animation-delay:.2s}.d2{animation-delay:.6s}.d3{animation-delay:1s}.d4{animation-delay:1.4s}
+    @keyframes in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    .pill rect{fill:#ffffff;fill-opacity:.05;stroke-width:1.5}
+    .pill text{font-size:15px;font-weight:600}
+    .dot{animation:blink 2s ease-in-out infinite}
+    @keyframes blink{0%,100%{opacity:.25}50%{opacity:1}}
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1000" height="280" fill="url(#bg)"/>
+    <rect width="1000" height="280" fill="url(#grid)"/>
+    <circle cx="120" cy="40" r="160" fill="#2EA6FF" opacity="0.10"/>
+    <circle cx="900" cy="260" r="180" fill="#A66BFF" opacity="0.12"/>
+    <!-- scanning line: a test run sweeping the page -->
+    <rect y="0" width="220" height="280" fill="url(#scan)" opacity="0.08">
+      <animate attributeName="x" values="-220;1000" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <!-- floating particles -->
+    <g fill="#2EE6C5">
+      <circle cx="80" cy="220" r="2" class="dot"/>
+      <circle cx="260" cy="60" r="1.5" class="dot" style="animation-delay:.5s"/>
+      <circle cx="760" cy="50" r="2" class="dot" style="animation-delay:1s"/>
+      <circle cx="930" cy="120" r="1.5" class="dot" style="animation-delay:1.5s"/>
+      <circle cx="600" cy="250" r="2" class="dot" style="animation-delay:.8s"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="998" height="278" rx="18" fill="none" stroke="#2EA6FF" stroke-opacity="0.35"/>
+
+  <text x="500" y="52" text-anchor="middle" class="m fade d1" font-size="14" fill="#2EE6C5" letter-spacing="3">$ npx playwright test --project=everything  ✔ 16+ years passed</text>
+  <text x="500" y="112" text-anchor="middle" class="t fade d2" font-size="50" font-weight="800" fill="url(#title)" filter="url(#glow)">Archana Kannan</text>
+  <text x="500" y="148" text-anchor="middle" class="t fade d3" font-size="19" fill="#C9D6F5" letter-spacing="1">AI-Powered Quality Engineer  ·  SDET  ·  Agentic Test Automation</text>
+
+  <g class="fade d4">
+    <g class="pill" transform="translate(110,185)"><rect width="140" height="38" rx="19" stroke="#2EAD33"/><text x="70" y="24" text-anchor="middle" class="t" fill="#45D14A">🎭 Playwright</text></g>
+    <g class="pill" transform="translate(265,185)"><rect width="160" height="38" rx="19" stroke="#EA5906"/><text x="80" y="24" text-anchor="middle" class="t" fill="#FF8A3D">🤖 WebdriverIO</text></g>
+    <g class="pill" transform="translate(440,185)"><rect width="140" height="38" rx="19" stroke="#69D3A7"/><text x="70" y="24" text-anchor="middle" class="t" fill="#69D3A7">🌲 Cypress.io</text></g>
+    <g class="pill" transform="translate(595,185)"><rect width="140" height="38" rx="19" stroke="#3178C6"/><text x="70" y="24" text-anchor="middle" class="t" fill="#5AA2F0">⚡ TypeScript</text></g>
+    <g class="pill" transform="translate(750,185)"><rect width="140" height="38" rx="19" stroke="#A66BFF"/><text x="70" y="24" text-anchor="middle" class="t" fill="#C29BFF">✨ Agentic AI</text></g>
+  </g>
+</svg>
