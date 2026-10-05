@@ -62,8 +62,12 @@
     <circle cx="-126" cy="0" r="5" fill="none" stroke="#2EE6C5"><animate attributeName="r" values="5;12" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0" dur="1.8s" repeatCount="indefinite"/></circle>
     <text x="8" y="5" text-anchor="middle" class="t" font-size="13" font-weight="700" fill="#E6F7FF" letter-spacing="3">16+ YEARS · QUALITY ENGINEERING</text>
   </g>
-  <text x="500" y="112" text-anchor="middle" class="t fade d2" font-size="50" font-weight="800" fill="url(#title)" filter="url(#glow)">Archana Kannan</text>
-  <text x="500" y="148" text-anchor="middle" class="t fade d3" font-size="19" fill="#C9D6F5" letter-spacing="1">AI-Powered Quality Engineer  ·  SDET  ·  Agentic Test Automation</text>
+  <text x="500" y="108" text-anchor="middle" class="t fade d2" font-size="52" letter-spacing="2" font-weight="800" fill="url(#title)" filter="url(#glow)">Archana Kannan</text>
+  <g class="fade d3">
+    <rect x="350" y="124" width="300" height="3" rx="1.5" fill="url(#title)" opacity="0.9"/>
+    <circle cy="125.5" r="4" fill="#ffffff" filter="url(#glow)"><animate attributeName="cx" values="350;650;350" dur="4s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="500" y="152" text-anchor="middle" class="t fade d3" font-size="19" fill="#C9D6F5" letter-spacing="1">AI-Powered Quality Engineer  ·  SDET  ·  Agentic Test Automation</text>
 
   <g class="fade d4">
     <g class="pill" transform="translate(110,185)"><rect width="140" height="38" rx="19" stroke="#2EAD33"/><text x="70" y="24" text-anchor="middle" class="t" fill="#45D14A">🎭 Playwright</text></g>

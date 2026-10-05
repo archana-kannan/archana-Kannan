@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./banner.svg" width="100%" alt="Archana Kannan - Playwright, WebdriverIO, Cypress.io, TypeScript, Agentic AI" />
+  <img src="./header-banner.svg" width="100%" alt="Archana Kannan - Playwright, WebdriverIO, Cypress.io, TypeScript, Agentic AI" />
 </p>
 
 <h1 align="center">Hi 👋, I'm Archana Kannan</h1>
