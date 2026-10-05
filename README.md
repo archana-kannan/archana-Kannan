@@ -28,7 +28,7 @@
 
 - 📫 How to reach me: **archana-kannan@outlook.com**
 
-- 🌱 I'm passionate about **Agentic AI for Testing, Playwright, TypeScript & Vue.js**
+- 🌱 I'm passionate about **Agentic AI for Testing, TypeScript, Playwright, WebdriverIO, CypressIO & Vue.js**
 
 - 🏆 Received the **Entrepreneurial Award** at Broadridge for innovative thinking and technical leadership
 
