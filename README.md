@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=160&section=header" alt="banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Quality%20at%20the%20Speed%20of%20AI&fontSize=40&fontColor=2EA6FF&fontAlignY=35&animation=fadeIn&desc=Playwright%20%E2%80%A2%20TypeScript%20%E2%80%A2%20Agentic%20AI%20Test%20Automation&descSize=16&descAlignY=58&descAlign=50" alt="banner" />
 </p>
 
 <h1 align="center">Hi 👋, I'm Archana Kannan</h1>
